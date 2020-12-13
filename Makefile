@@ -2,11 +2,11 @@ KERNELDIR=/lib/modules/`uname -r`/build
 
 
 #Change the names here to your file name
-MODULES = helloWorld.ko 
-obj-m += helloWorld.o 
+MODULES = dongle.ko 
+obj-m += dongle.o
 
 all:
-	make -C $(KERNELDIR) M=$(PWD) modules
+	make -C $(KERNELDIR) M=$(PWD) modules 
 
 clean:
 	make -C $(KERNELDIR) M=$(PWD) clean
@@ -16,3 +16,4 @@ install:
 
 quickInstall:
 	cp $(MODULES) /lib/modules/`uname -r`/extra
+
