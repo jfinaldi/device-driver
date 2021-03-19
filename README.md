@@ -1,4 +1,4 @@
-# CSC415-Device-Driver
+# Device-Driver
 **Background**:
 
 The Linux operating system consists of the Kernel some other minor components and then a large number of Device Drivers.  Device drivers are the key to how various hardware devices interface with the computer.
