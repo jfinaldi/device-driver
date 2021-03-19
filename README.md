@@ -15,29 +15,6 @@ You should also write a user application that utilizes your device driver.
 **Example**:
 Create a calculator device driver.  Open your device driver and write a series of numbers, use ioctl to perform an operation like summation, then use read to get the result. Close (release) the driver when you are done.
 
-**Submission**:
 
-Submit your write-up as a PDF on iLearn, your code and Makefile (modify that provided) in Git along with the PDF.
-
-**Hint**:
-The provided makefile is a key to building kernel modules.
-
-**Grading**:
-
-This project will be graded based on meeting the following rubric. 
-
-**Rubric**: 
-|Component 	| Points |
-|:------------------------------------------------------------------------|------:|
-|Loadable Device Driver Skeleton                                          |	 30   |
-|Correctness of load and unload functions                                 |	 10   |
-|Sample  - simple user/application interaction with the device driver     |  	20  |
-|Inline comments - meaningful describing concepts and functionality       | 	18  |
-|Standard Header a define in all prior projects for each file             |  	2   |
-|Write-up of project                                                      |  10   |
-|Screen shots showing all elements of functionality                       |       |
-|     (include load and unload as well as application interaction         |  10   |
-
-	
 
 	
